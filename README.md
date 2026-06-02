@@ -1,9 +1,9 @@
 # Report Name:      Active Accounts with Current Services, Lot Address, Area, and Filters
-<b>Database:</b>         Springbrook0
-<b>Created By:</b>       Teo Espero
-<b>Department:</b>       Marina Coast Water District - IT
+<b>Database:</b>         Springbrook0<br>
+<b>Created By:</b>       Teo Espero<br>
+<b>Department:</b>       Marina Coast Water District - IT<br>
 
-<b>Purpose:</b>
+<b>Purpose:</b><br>
 <p>This query returns utility billing accounts that were active as of a selected date,
      including accounts with acct_status = Delete when their final_date is on or after
      the selected As Of Date.</p>
@@ -13,7 +13,7 @@
      the Lot table, billing area, and lot attributes.
 </pre>
 
-<b>Important Notes:</b>
+<b>Important Notes:</b><br>
 <ol>
   <li>This query does NOT use [dbo].[Customers] because that object is a view and currently
         has a binding error related to charge_phone.</li>
@@ -71,7 +71,7 @@
      SubType         = specific, multiple, or wildcard</pre>
 
 
- Revision History:
+ <b>Revision History:</b>
 
  <table>
   <thead>
